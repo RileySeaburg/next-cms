@@ -20,8 +20,6 @@ export default function AdminPanel() {
         <main className='min-w-0 flex-1 border-t  bg-gray-100 text-white border-gray-200 lg:flex'>
           {/* Primary column */}
           <Dashboard  />
-          {/* Secondary column (hidden on smaller screens) */}
-          <Column />
         </main>
       </div>
     </div>
