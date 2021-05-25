@@ -17,7 +17,7 @@ export default function AdminPanel() {
         {/* Narrow sidebar*/}
         <Sidebar />
         {/* Main area */}
-        <main className='min-w-0 flex-1 border-t  bg-gray-600 text-white border-gray-200 lg:flex'>
+        <main className='min-w-0 flex-1 border-t  bg-gray-100 text-white border-gray-200 lg:flex'>
           {/* Primary column */}
           <Dashboard  />
           {/* Secondary column (hidden on smaller screens) */}

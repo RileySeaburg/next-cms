@@ -5,7 +5,7 @@ import Sidebar from '../../../components/backend/sidebar';
 
 export default function Example() {
   return (
-    <div className='h-screen overflow-hidden bg-gray-900 flex flex-col'>
+    <div className='h-screen overflow-hidden bg-gray-100 flex flex-col'>
       {/* Top nav*/}
       <Header />
       {/* Bottom section */}
@@ -13,7 +13,7 @@ export default function Example() {
         {/* Narrow sidebar*/}
         <Sidebar />
         {/* Main area */}
-        <main className='min-w-0 flex-1 border-t  bg-gray-600 text-white border-gray-200 lg:flex'>
+        <main className='min-w-0 flex-1 border-t  bg-gray-100 text-white border-gray-200 lg:flex'>
           {/* Primary column */}
           <Dashboard />
           {/* Secondary column (hidden on smaller screens) */}
