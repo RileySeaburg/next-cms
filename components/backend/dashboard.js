@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import UserForm from './forms/users';
 import NoDashboard from '../backend/alerts/NoDashboard';
+import CreatePost from '../theme/forms/createPost';
 function Dashboard() {
   const router = useRouter();
 
@@ -19,12 +20,9 @@ function Dashboard() {
     case 'users':
       panel = <UserForm />
         break;
-    case '*':
-        return value1 * value2;
-        break;
-    case '/':
-        return value1 / value2;
-        break;
+    case 'posts':
+      panel = <CreatePost />
+      break;
 }
 
 
